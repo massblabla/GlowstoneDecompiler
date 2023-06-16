@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# GlowstoneDecompiler
+# Copyright 2023 massblabla
+# Cleanup script
+
+echo "Are you sure you want to cleanup? It's unrecoverable."
+PS3='Choose your desired decision: '
+choices=("Yes" "No")
+select chc in "${choices[@]}"; do
+    case $chc in
+        "Yes")
+            echo ""
+            echo "You chose Yes"
+            sleep 2
+            cd ../src/minecraft
+            rm -r net
+            rm -r com
+            cd ../lib
+            rm -r *
+            cd ../jars
+            cd libraries
+            rm -r *
+            ;;
+        "No")
+            echo ""
+            echo "You chose No"
+            sleep 2
+            exit
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done

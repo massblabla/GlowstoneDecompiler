@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\GlowstoneDecompiler\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+137624701.index

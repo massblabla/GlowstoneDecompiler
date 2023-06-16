@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# GlowstoneDecompiler
+# Copyright 2023 massblabla
+# Decompile script
+
+
+echo "If it fails, please check your Java installation. Or you don't have Minecraft."
+sleep 5
+
+# copy libs
+echo "Now it'll copy the needed libraries for Minecraft to work."
+echo "This can take long, depending on your computer."
+cp -r ~/.minecraft/libraries/* libraries
+sleep 2
+
+# dec/deo process
+cd ../bin
+
+echo "Now it'll start deobfuscation."
+echo "Please be patient, because it'll take long (like hours)."
+java -Xms512M -Xmx4096M -cp SpecialSource-1.10.0.jar:*:. net.md_5.specialsource.SpecialSource --in-jar ../jars/versions/client.jar --out-jar ../tmp/deobf.jar --srg-in ../tmp/client.txt --kill-lvt
+sleep 2
+
+echo "Now it'll start decompilation."
+java -Xms512M -Xmx4096M -jar cfr-0.152.jar ../tmp/deobf.jar --outputdir ../src/minecraft
+sleep 2
+
+echo "Removing unnecessary temporary files."
+cd ../tmp
+rm -r *
+cd ../src
+rm summary.txt

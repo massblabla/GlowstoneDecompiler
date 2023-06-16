@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# GlowstoneDecompiler
+# Copyright 2023 massblabla
+# Start script
+
+cd scripts
+chmod a+x versionchoose
+chmod a+x decompile
+./versionchoose
+sleep 5
+./decompile
+sleep 2
