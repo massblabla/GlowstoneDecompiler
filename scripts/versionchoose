@@ -4,6 +4,8 @@
 # Copyright 2023 massblabla
 # Version Choosing script
 
+cd ../tmp
+
 echo "Select these versions and enter below."
 PS3='Choose your desired Minecraft version to decompile: '
 choices=("1.20" "1.20.1" "Exit")
@@ -14,10 +16,8 @@ select chc in "${choices[@]}"; do
             echo "You chose 1.20"
             sleep 2
             # mapping
-            cd ../jars/versions/client
             wget https://piston-data.mojang.com/v1/objects/a4cd9a97400f7ecfe4dba23e427549ebc5815d66/client.txt
             # jar
-            cd ../tmp
             wget https://piston-data.mojang.com/v1/objects/e575a48efda46cf88111ba05b624ef90c520eef1/client.jar
             ;;
         "1.20.1")
@@ -25,10 +25,8 @@ select chc in "${choices[@]}"; do
             echo "You chose 1.20.1"
             sleep 2
             # mapping
-            cd ../jars/versions/client
             wget https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt
             # jar
-            cd ../tmp
             wget https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar
             ;;
 	    "Exit")

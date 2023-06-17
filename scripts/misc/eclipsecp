@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# GlowstoneDecompiler
+# Copyright 2023 massblabla
+# Get Eclipse Libraries script
+
+cd ../eclipse/Client
+
+rm -r .classpath
+wget https://gist.githubusercontent.com/massblabla/87b9f8e003828732fdfd55c5c211194f/raw/fae346b194a1147b5215a66c2aee9917abfdfa89/.classpath

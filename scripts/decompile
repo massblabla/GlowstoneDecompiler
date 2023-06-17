@@ -12,6 +12,8 @@ sleep 5
 echo "Now it'll copy the needed libraries for Minecraft to work."
 echo "This can take long, depending on your computer."
 cp -r ~/.minecraft/libraries/* libraries
+chmod a+x misc/eclipsecp
+./misc/eclipsecp
 sleep 2
 
 # dec/deo process
@@ -28,6 +30,7 @@ sleep 2
 
 echo "Removing unnecessary temporary files."
 cd ../tmp
+cp client.jar ../jars/versions/client/client.jar
 rm -r *
 cd ../src
 rm summary.txt

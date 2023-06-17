@@ -21,6 +21,10 @@ select chc in "${choices[@]}"; do
             cd ../jars
             cd libraries
             rm -r *
+            cd ../saves
+            mv 'GlowstoneDecompiler Testing World' ../'GlowstoneDecompiler Testing World'
+            rm -r *
+            mv ../'GlowstoneDecompiler Testing World' 'GlowstoneDecompiler Testing World'
             ;;
         "No")
             echo ""
