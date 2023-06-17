@@ -1,6 +1,0 @@
---2023-06-16 16:35:23--  https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt
-Resolving piston-data.mojang.com (piston-data.mojang.com)... 13.107.213.59, 13.107.246.59, 2620:1ec:46::59, ...
-Connecting to piston-data.mojang.com (piston-data.mojang.com)|13.107.213.59|:443... failed: Connection timed out.
-Connecting to piston-data.mojang.com (piston-data.mojang.com)|13.107.246.59|:443... failed: Connection timed out.
-Connecting to piston-data.mojang.com (piston-data.mojang.com)|2620:1ec:46::59|:443... failed: Network is unreachable.
-Connecting to piston-data.mojang.com (piston-data.mojang.com)|2620:1ec:bdf::59|:443... failed: Network is unreachable.

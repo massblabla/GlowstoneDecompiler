@@ -6,6 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="GSD_LIB_PATH/jars/versions/client/client.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="GSD_LIB_PATH/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
