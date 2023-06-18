@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # GlowstoneDecompiler
-# Copyright 2023 massblabla
+# Copyright (c) massblabla 2023
 # Cleanup script
 
 echo "Are you sure you want to cleanup? It's unrecoverable."

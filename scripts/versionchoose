@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # GlowstoneDecompiler
-# Copyright 2023 massblabla
+# Copyright (c) massblabla 2023
 # Version Choosing script
 
 cd ../tmp

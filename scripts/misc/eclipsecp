@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # GlowstoneDecompiler
-# Copyright 2023 massblabla
-# Get Eclipse Libraries script
+# Copyright (c) massblabla 2023
+# Eclipse Libraries Copy script
 
 cd ../eclipse/Client
 

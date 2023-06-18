@@ -1,9 +1,8 @@
 #!/bin/bash
 
 # GlowstoneDecompiler
-# Copyright 2023 massblabla
+# Copyright (c) massblabla 2023
 # Decompile script
-
 
 echo "If it fails, please check your Java installation. Or you don't have Minecraft."
 sleep 5
@@ -11,7 +10,9 @@ sleep 5
 # copy libs
 echo "Now it'll copy the needed libraries for Minecraft to work."
 echo "This can take long, depending on your computer."
+cd ../jars
 cp -r ~/.minecraft/libraries/* libraries
+cd ../scripts
 chmod a+x misc/eclipsecp
 ./misc/eclipsecp
 sleep 2
@@ -21,7 +22,7 @@ cd ../bin
 
 echo "Now it'll start deobfuscation."
 echo "Please be patient, because it'll take long (like hours)."
-java -Xms512M -Xmx4096M -cp SpecialSource-1.10.0.jar:*:. net.md_5.specialsource.SpecialSource --in-jar ../jars/versions/client.jar --out-jar ../tmp/deobf.jar --srg-in ../tmp/client.txt --kill-lvt
+java -Xms512M -Xmx4096M -cp SpecialSource-1.10.0.jar:*:. net.md_5.specialsource.SpecialSource --in-jar ../tmp/client.jar --out-jar ../tmp/deobf.jar --srg-in ../tmp/client.txt --kill-lvt
 sleep 2
 
 echo "Now it'll start decompilation."
