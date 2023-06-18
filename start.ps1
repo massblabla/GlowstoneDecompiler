@@ -1,7 +1,8 @@
 # GlowstoneDecompiler
 # Copyright 2023 massblabla
 # Start script
-# PowerShell port (Windows), I don't recommend using this as this could still be broken and unusable
+
+Write-Warning "Windows (PowerShell) port. I would not recommend using this as this could be broken and even unusable."
 
 Set-Location .\scripts
 .\versionchoose

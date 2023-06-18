@@ -1,7 +1,8 @@
 # GlowstoneDecompiler
 # Copyright (c) massblabla 2023
 # Eclipse Libraries Copy script
-# PowerShell port (Windows), I don't recommend using this as this could still be broken and unusable
+
+Write-Warning "Windows (PowerShell) port. I would not recommend using this as this could be broken and even unusable."
 
 Set-Location ..\eclipse\Client
 
