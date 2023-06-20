@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# GlowstoneDecompiler
+# Copyright (c) massblabla 2023
+# JAR Download script
+
+cd ../bin
+
+# specialsource
+wget https://repo1.maven.org/maven2/net/md-5/SpecialSource/1.10.0/SpecialSource-1.10.0.jar
+wget https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
+wget https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+wget https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar
+wget https://repo1.maven.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.jar
+wget https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar
+wget https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar
+
+# cfr
+wget https://repo1.maven.org/maven2/org/benf/cfr/0.152/cfr-0.152.jar

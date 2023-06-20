@@ -7,6 +7,11 @@ Write-Warning "Windows (PowerShell) port. I would not recommend using this as th
 Write-Output "If it fails, please check your Java installation. Or you don't have Minecraft."
 Start-Sleep 5
 
+# jar
+Write-Output "Downloading JARs..."
+.\misc\jardl
+Start-Sleep 2
+
 # copy libs
 Write-Output "Now it'll copy the needed libraries for Minecraft to work."
 Write-Output "This can take long, depending on your computer."

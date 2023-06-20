@@ -1,5 +1,5 @@
 # GlowstoneDecompiler
-### Version 1.1.1
+### Version 1.1.2-pre1
 Welcome to **GlowstoneDecompiler**! This is a **Minecraft modding toolkit** similar to **MCP and MCP-Reborn** and also probably **DecompilerMC**.
 **GlowstoneDecompiler** is just bunch of scripts that will run JARs needed to deobfuscate and decompile **Minecraft** using **Mojang's mappings**.  
 **NOTE: GlowstoneDecompiler's PowerShell scripts (Microsoft Windows) could still be broken and unusable, I'd recommend using GNU/Linux BASH scripts instead.**  

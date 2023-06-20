@@ -7,6 +7,12 @@
 echo "If it fails, please check your Java installation. Or you don't have Minecraft."
 sleep 5
 
+# jar
+echo "Downloading JARs..."
+chmod a+x misc/jardl
+./misc/jardl
+sleep 2
+
 # copy libs
 echo "Now it'll copy the needed libraries for Minecraft to work."
 echo "This can take long, depending on your computer."
