@@ -1,5 +1,5 @@
 # GlowstoneDecompiler
-### Version 1.1.0
+### Version 1.1.2-pre2
 If you'd love to contribute, please follow these guidelines.  
 Almost all things mentioned here are for GitHub.
 
@@ -18,8 +18,7 @@ Also you can suggest features, but I think it would be much better if you contri
 - Be respectful.
 
 ### Basic steps
-1. Go to the pull request.
-2. Fork it.
-3. Clone your fork.
-4. Make some changes.
-5. Pull request.
+1. Fork it.
+2. Clone your fork.
+3. Make some changes.
+4. Pull request.

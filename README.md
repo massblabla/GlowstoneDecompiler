@@ -1,5 +1,6 @@
 # GlowstoneDecompiler
-### Version 1.1.2-pre1
+## **IN CONSTRUCTION**
+### Version 1.1.2-pre2
 Welcome to **GlowstoneDecompiler**! This is a **Minecraft modding toolkit** similar to **MCP and MCP-Reborn** and also probably **DecompilerMC**.
 **GlowstoneDecompiler** is just bunch of scripts that will run JARs needed to deobfuscate and decompile **Minecraft** using **Mojang's mappings**.  
 **NOTE: GlowstoneDecompiler's PowerShell scripts (Microsoft Windows) could still be broken and unusable, I'd recommend using GNU/Linux BASH scripts instead.**  
@@ -17,4 +18,6 @@ If you'd like to contribute to my project, please read [CONTRIBUTING.md](CONTRIB
 
 ## License Notice
 **GlowstoneDecompiler** is licensed under the **LGPL-3.0-or-later** license.  
-**External libraries** used by **GlowstoneDecompiler** is **varied** and not always be **LGPL-3.0-or-later**.
+**External libraries** used by **GlowstoneDecompiler** is **varied** and not always be **LGPL-3.0-or-later**.  
+
+Minecraft is a trademark of Mojang Synergies AB/Microsoft. I'm not affiliated with any of them.  
